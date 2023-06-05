@@ -1,0 +1,228 @@
+html {
+    font-size: 62.5%;
+  }
+
+
+  
+  .container{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 5rem;
+    
+   }
+
+
+h1{
+ color: #fff;
+ font-size: 3.500rem;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+ width: 400px;
+ 
+ 
+
+ 
+}
+
+.logo {
+max-width: 264px;
+width: 200px;
+padding-top: 2rem;
+}
+
+.header__container{
+ width: 400px;
+ 
+}
+
+
+p {
+ font-size: 1.35rem;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 400;
+ width: 420px;
+ color: #fff;
+
+}
+
+body{
+ background-image: url(..//images/bg-desktop.svg);
+ background-color: hsl(257,40%, 49%);
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+
+
+.nav{
+ display: flex;
+ transform: scale(60%);
+ 
+ 
+ 
+}
+
+
+/* Buttons */
+.btn {
+ border-radius: 40px;
+ border: 0;
+ width: 200px;
+ height: 50px;
+ font-size: 1.8rem;
+ font-weight: 600;
+ margin: 1rem 0;
+ padding: 2rem 3rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: hsl(257, 40%, 49%);
+ 
+}
+
+.btn:hover {
+ background-color: hsl(300, 69%, 71%);
+ cursor: pointer;
+ color: #fff;
+
+} 
+
+.grid{
+ display: grid  ;
+ grid-template-columns: 1fr 1fr;
+}
+
+.grid__container {
+ display: flex;
+justify-content: center;
+
+}
+
+
+.grid__image {
+display: flex;
+align-content: center;
+flex-direction: column;
+gap: 60px;
+width: 55%;
+
+ 
+}
+
+.socials{
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    padding-right: 130px;
+  
+
+}
+
+.icon {
+    color: #fff;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon :hover {
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.attribution{
+font-size: 12px;
+text-align: left;
+
+}
+
+@media only screen and  (max-width: 600px)   {
+body {
+       background-color: url(..//images/bg-mobile.svg);
+        margin: auto;
+        max-width: 375px;
+    }
+
+ .grid{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        margin: 50px 0;
+      
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    width: 350px;
+}
+
+.text {
+    text-align: center;
+}
+
+.content{
+        width: 280px;
+}
+
+
+.illustration { 
+  width: 350px;
+  height: auto;
+ padding: 1.5rem;
+ padding-bottom: 10%;
+}
+
+.logo {
+    max-width: 375px;
+    width: 150px;
+    padding-top: 0.25rem;
+    
+    }
+
+    .image{
+        
+    }
+
+    .btn {
+        font-size: 16px;
+        width: 230px;
+        height: 45px;
+        margin: 50px auto;
+    }
+
+    .socials { 
+        margin: 50px auto;
+        gap: 15px;
+        
+ }
+
+    .attribution{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+ }
